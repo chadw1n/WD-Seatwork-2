@@ -45,6 +45,11 @@ body {
   justify-content: space-between;
   padding: 80px 60px;
   position: relative;
+  transition: margin-left 0.3s ease;
+}
+
+.hero.shifted {
+  margin-left: 250px; 
 }
 
 .menu-icon {
@@ -136,4 +141,59 @@ body {
   height: auto;
   border-radius: 20px;
   object-fit: cover;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+  transform: translateX(-250px);
+  transition: transform 0.3s ease;
+  z-index: 300;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 20px;
+  display: block;
+  text-align: right;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .content h2 {
+    font-size: 32px;
+  }
+
+  .content h1 {
+    font-size: 48px;
+  }
+
+  .search-bar {
+    left: 30px;
+    right: 30px;
+    width: calc(100% - 60px);
+  }
+
+  .image-box img {
+    width: 100%;
+    margin-top: 20px;
+  }
 }

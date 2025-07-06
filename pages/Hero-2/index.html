@@ -18,8 +18,12 @@
     </div>
   </div>
 
-  <section class="hero">
-    <div class="menu-icon">
+  <div class="sidebar" id="sidebar">
+  <button class="close-btn" id="closeBtn">&times;</button>
+</div>
+
+  <section class="hero" id="heroSection">
+  <div class="menu-icon" id="menuIcon">
       <div></div>
       <div></div>
       <div></div>
@@ -38,5 +42,21 @@
       <img src="./assets/img/Future Home Main Image.png" alt="Modern House">
     </div>
   </section>
+  <script>
+    const menuIcon = document.getElementById("menuIcon");
+    const sidebar = document.getElementById("sidebar");
+    const heroSection = document.getElementById("heroSection");
+    const closeBtn = document.getElementById("closeBtn");
+
+    menuIcon.addEventListener("click", () => {
+      sidebar.classList.add("active");
+      heroSection.classList.add("shifted");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.remove("active");
+      heroSection.classList.remove("shifted");
+    });
+  </script>
 </body>
 </html>
