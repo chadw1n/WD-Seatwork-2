@@ -21,15 +21,16 @@ body {
 .nav-buttons a {
   margin-left: 15px;
   padding: 8px 20px;
-  border: 1px solid black;
+  border: 1px solid #e46c27;
   border-radius: 5px;
   text-decoration: none;
-  color: black;
+  color: #e46c27;
   font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-buttons a:hover {
-  background-color: black;
+  background-color: #e46c27;
   color: #fff;
 }
 
@@ -53,8 +54,10 @@ body {
 }
 
 .hero-title {
-  font-size: 3em;
+  font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+  font-size: 3.5em;
   margin-bottom: 20px;
+  color: #333;
 }
 
 .hero-title .highlight {
@@ -79,9 +82,9 @@ body {
 .hero-image img {
   width: 100%;
   max-width: 500px;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   animation: float 3s ease-in-out infinite;
-
 }
 
 @keyframes float {
@@ -95,12 +98,14 @@ body {
 }
 
 .hero-text h2 {
+  color: #e46c27;
   font-size: 2em;
   margin-top: 0;
 }
 
 .hero-text p {
   margin-top: 15px;
+  color: #555;
   line-height: 1.6;
   font-size: 1.1em;
 }
@@ -108,17 +113,19 @@ body {
 .btn {
   display: inline-block;
   margin-top: 25px;
-  padding: 12px 24px;
-  font-size: 1.1em;
-  background: black;
-  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background: linear-gradient(135deg, #e46c27, #ff8c42);
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  color: #fff;
   text-decoration: none;
-  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  background: #e46c27;
+  background: linear-gradient(135deg, #ff8c42, #e46c27);
   transform: translateY(-2px);
 }
+
