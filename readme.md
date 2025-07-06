@@ -17,14 +17,11 @@ This project showcases my HTML and CSS skills through various hero sections, eac
 
 ![](https://visit-counter.vercel.app/counter.png?page=chadw1n/WD-Seatwork-2)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
-
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -51,29 +48,21 @@ This project showcases my HTML and CSS skills through various hero sections, eac
 ---
 
 ## Overview
+This project shows my skills in building creative and dynamic hero sections for the web. Each hero highlights different design ideas, like floating images, video backgrounds, and smooth hover animations, to make every page feel unique and engaging. I focused on making the layouts responsive so they look good on any screen size, and added subtle interactive details to enhance the user experience. Using only HTML and CSS, I aimed to explore different visual styles and learn how to create modern, eye-catching sections that can be used in real websites. This project helped me improve my design thinking and front-end development skills at the same time.
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Multi-page website with five different hero sections
+- Animated effects and hover interactions
+- Easy navigation with Prev, Home, and Next buttons
+- Floating image
+- Slider feature
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
