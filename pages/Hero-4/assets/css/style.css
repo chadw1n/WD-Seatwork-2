@@ -29,14 +29,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 30px 50px;
   position: relative;
   z-index: 10;
 }
 
 .logo img {
-  width: 110px;
-  height: 70px;
+  width: 140px;
+  height: auto;
 }
 
 .top-buttons .btn {
