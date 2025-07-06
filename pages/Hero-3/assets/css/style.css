@@ -80,6 +80,13 @@ body {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
+  animation: float 3s ease-in-out infinite;
+
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 .hero-text {
@@ -108,4 +115,10 @@ body {
   border: none;
   border-radius: 5px;
   text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background: #e46c27;
+  transform: translateY(-2px);
 }
