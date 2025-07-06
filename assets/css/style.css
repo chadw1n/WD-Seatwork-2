@@ -4,7 +4,7 @@ body {
     background-image: url("../img/360_F_268807166_oPVMMlJcxy4OjBDkl9JPxqfJeMC98yNm.jpg");
     background-size: cover;
     background-position: center;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 
@@ -13,29 +13,66 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    height: 100vh;
+    height: 100vh; 
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
 }
 
 .lebron-background {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-55%);
+    z-index: 0; 
 }
 
 .lebron-background img {
-    height: 600px;
-    width: auto;
+    height: 600px; 
+    width: 1200px;
+    opacity: 1;
 }
 
 .card {
     position: relative;
+    z-index: 1;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    transition: transform 0.3s, background-color 0.3s;
     width: 25%;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.left h1 {
+    margin-top: 0;
+    font-size: 32px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.left .name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left .section {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.left .desc {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 .right {
@@ -48,7 +85,14 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 12px 25px;
     border: 2px solid white;
-    padding: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.right a:hover {
+    background-color: white;
+    color: #222;
+    transform: translateX(-5px);
 }
