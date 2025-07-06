@@ -44,6 +44,50 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 80px 60px;
+  position: relative;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background: white;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.menu-icon div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+}
+
+.search-bar {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .content {
