@@ -89,6 +89,14 @@ body {
 }
 
 .side-image img {
-  height: 650px;
+  height: 650px; 
   width: auto;
+  filter: drop-shadow(0 0 20px rgba(0, 174, 239, 0.5));
+  transition: transform 2s ease-in-out;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
 }
