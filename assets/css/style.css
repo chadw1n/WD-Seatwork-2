@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/360_F_268807166_oPVMMlJcxy4OjBDkl9JPxqfJeMC98yNm.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.overlay {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lebron-background {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lebron-background img {
+    height: 600px;
+    width: auto;
+}
+
+.card {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
