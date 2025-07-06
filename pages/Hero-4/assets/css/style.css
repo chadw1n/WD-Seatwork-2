@@ -3,6 +3,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   overflow-x: hidden;
+  background: black;
 }
 
 .header {
@@ -28,10 +29,12 @@ body {
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
   background-color: #a30b0b;
+  box-shadow: 0 0 25px rgba(255,255,255,0.4);
 }
 
 .main-content {
@@ -40,6 +43,8 @@ body {
   align-items: center;
   padding: 100px 60px;
   flex-wrap: wrap;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .left-section, .center-section, .right-section {
@@ -49,23 +54,22 @@ body {
   padding: 20px;
 }
 
-.center-section {
-  flex: 1.5 1 50%;
-}
-
 .left-section h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 20px;
 }
 
 .left-section p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
-.main-image {
-  width: 100%;
-  max-width: 700px;
-  border-radius: 20px;
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.features-list p {
+  margin: 0 0 20px 0;
 }
