@@ -65,6 +65,20 @@ body {
   margin-bottom: 25px;
 }
 
+.image-placeholder {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
 .right-section {
   display: flex;
   flex-direction: column;
