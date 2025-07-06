@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #fdeee4; 
+
 }
 
 .navbar {
@@ -32,6 +34,8 @@ body {
   align-items: center;
   padding: 50px 20px;
   text-align: center;
+  background-color: #fff7f0;; /* Light soft background */
+
 }
 
 .hero-title {
