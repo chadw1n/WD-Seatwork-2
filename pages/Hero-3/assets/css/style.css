@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fdeee4; 
-
+  background-color: #fdeee4;
+  color: #333;
 }
 
 .navbar {
@@ -28,14 +28,28 @@ body {
   font-weight: bold;
 }
 
+.nav-buttons a:hover {
+  background-color: black;
+  color: #fff;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px 20px;
   text-align: center;
-  background-color: #fff7f0;; 
+  background: linear-gradient(135deg, #ffe4e1, #fdeee4);
+  position: relative;
+  overflow: hidden;
+}
 
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: -1;
 }
 
 .hero-title {
@@ -46,8 +60,8 @@ body {
 .hero-title .highlight {
   background: #e46c27;
   color: white;
-  padding: 0 8px;
-  border-radius: 5px;
+  padding: 0 12px;
+  border-radius: 8px;
 }
 
 .hero-content {
