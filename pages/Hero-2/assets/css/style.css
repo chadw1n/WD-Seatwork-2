@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e0f2ff, #b3e5fc);
+  overflow-x: hidden;
 }
 
 .header {
@@ -9,7 +11,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 8px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 150;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   height: 70px;
+  background: white;
 }
 
 .logo img {
@@ -23,7 +30,8 @@ body {
   gap: 10px;
 }
 
-.top-buttons .btn {
+.top-buttons .btn,
+.top-buttons .btn.disabled {
   background-color: #ffffff;
   color: #333;
   padding: 8px 18px;
@@ -37,6 +45,11 @@ body {
 .top-buttons .btn:hover {
   background-color: #333;
   color: #ffffff;
+}
+
+.top-buttons .btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 .hero {
@@ -63,6 +76,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .menu-icon div {
@@ -80,6 +94,7 @@ body {
   background: white;
   border-radius: 8px;
   padding: 8px 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .search-bar input {
@@ -97,6 +112,7 @@ body {
 
 .content {
   max-width: 600px;
+  flex: 1;
 }
 
 .content h2 {
@@ -153,7 +169,7 @@ body {
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
   transform: translateX(-250px);
   transition: transform 0.3s ease;
-  z-index: 300;
+  z-index: 300; 
 }
 
 .sidebar.active {
@@ -168,32 +184,4 @@ body {
   padding: 20px;
   display: block;
   text-align: right;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-    padding: 40px 20px;
-  }
-
-  .content h2 {
-    font-size: 32px;
-  }
-
-  .content h1 {
-    font-size: 48px;
-  }
-
-  .search-bar {
-    left: 30px;
-    right: 30px;
-    width: calc(100% - 60px);
-  }
-
-  .image-box img {
-    width: 100%;
-    margin-top: 20px;
-  }
 }
