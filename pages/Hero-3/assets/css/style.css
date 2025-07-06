@@ -43,6 +43,13 @@ body {
   margin-bottom: 20px;
 }
 
+.hero-title .highlight {
+  background: #e46c27;
+  color: white;
+  padding: 0 8px;
+  border-radius: 5px;
+}
+
 .hero-content {
   display: flex;
   flex-wrap: wrap;
