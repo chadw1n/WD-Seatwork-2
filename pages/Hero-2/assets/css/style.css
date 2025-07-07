@@ -185,3 +185,7 @@ body {
   display: block;
   text-align: right;
 }
+
+.downSection{
+  height: 200svh;
+}
