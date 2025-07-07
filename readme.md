@@ -103,4 +103,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Canva | Used for creating and designing logos and some image assets included in the hero sections. | https://www.canva.com/ |
+| ASUS ROG | Used official ROG Phone and logo assets as part of Hero 4 section. | https://rog.asus.com/ |
+| 18 Hero Section Designs You Can Steal | Source of layout inspiration and design ideas for creating different hero sections. | [Watch on YouTube](https://www.youtube.com/watch?v=kJb6BZwqCGM&t=483s) |
