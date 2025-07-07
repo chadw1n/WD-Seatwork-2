@@ -104,3 +104,4 @@ WD-ProjectName
 | Canva | Used for creating and designing logos and some image assets included in the hero sections. | https://www.canva.com/ |
 | ASUS ROG | Used official ROG Phone and logo assets as part of Hero 4 section. | https://rog.asus.com/ |
 | 18 Hero Section Designs You Can Steal | Source of layout inspiration and design ideas for creating different hero sections. | [Watch on YouTube](https://www.youtube.com/watch?v=kJb6BZwqCGM&t=483s) |
+| Google Fonts | Used for web typography to improve design aesthetics and readability. | https://fonts.google.com/ |
