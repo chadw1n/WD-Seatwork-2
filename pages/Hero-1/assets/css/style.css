@@ -64,7 +64,7 @@ body {
   padding: 60px;
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: 73vh;
   background: linear-gradient(135deg, #e6f7f1, #c3f2e4);
 }
 
@@ -267,3 +267,4 @@ body {
 .top-buttons .btn:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+
