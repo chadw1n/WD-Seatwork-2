@@ -59,6 +59,10 @@ body {
   padding: 80px 60px;
   position: relative;
   transition: margin-left 0.3s ease;
+  background-image: url("../img/Untitled\ design\ \(2\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero.shifted {
