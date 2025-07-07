@@ -182,15 +182,15 @@ body {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 20px;
-  width: 500px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.4); 
-  backdrop-filter: blur(10px); 
+  width: 100%; 
+  margin-top: 30px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  z-index: 2;
-  
 }
+
 
 .slide {
   flex: 0 0 450px;
