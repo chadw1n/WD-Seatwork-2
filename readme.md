@@ -60,7 +60,6 @@ This project shows my skills in building creative and dynamic hero sections for 
 
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -100,7 +99,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 | Canva | Used for creating and designing logos and some image assets included in the hero sections. | https://www.canva.com/ |
