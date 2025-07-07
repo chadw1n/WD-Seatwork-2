@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   background: linear-gradient(to right, #e0f2ff, #b3e5fc);
   overflow-x: hidden;
 }
@@ -130,8 +130,13 @@ body {
   font-weight: bold;
 }
 
+.content h1, .content h2 {
+  font-family: 'Playfair Display', serif;
+}
+
 .content p {
   font-size: 18px;
+  font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.6;
   background: rgba(255, 255, 255, 0.7); 
   padding: 16px;
