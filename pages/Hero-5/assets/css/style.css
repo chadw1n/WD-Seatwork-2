@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #003B4A;
   overflow-x: hidden;
 }
@@ -36,6 +36,8 @@ body {
 }
 
 .btn {
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: 1px;
   background-color: #00AEEF;
   color: white;
   padding: 10px 20px;
@@ -66,13 +68,15 @@ body {
 }
 
 .center-section h1 {
-  font-size: 2.2rem;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.8rem;
   margin-bottom: 20px;
 }
 .center-section p {
+  font-family: 'Montserrat', sans-serif;
   margin: 20px 0;
   line-height: 1.7;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .center-section .btn {
   margin-top: 20px;
