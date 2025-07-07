@@ -52,7 +52,7 @@ body, h1, p, a {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   background: white;
 }
@@ -75,6 +75,7 @@ body {
 
 .hero-content h1 {
   font-size: 3rem;
+  font-family: 'Merriweather', serif;
   font-weight: bold;
   color: #fff; 
   text-shadow:
@@ -89,6 +90,7 @@ body {
 }
 .hero-content p {
   font-size: 1.1rem;
+  font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
   color: #3d5c53;
   margin: 20px 0 30px;
 }
@@ -116,6 +118,7 @@ body {
 }
 
 .btn-outline {
+  font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
   display: inline-block;
   padding: 12px 28px;
   border: 2px solid #28a745;
@@ -218,6 +221,7 @@ body {
 
 .slide p {
   font-size: 1.1rem;
+  font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
   color: #205d4e;
   margin-bottom: 15px;
 }
@@ -280,3 +284,4 @@ body {
 .downSection{
   height: 200svh;
 }
+
