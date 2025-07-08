@@ -273,8 +273,14 @@ body {
   font-weight: bold;
   text-decoration: none;
   margin: 0 5px;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   border-radius: 8px;
+  box-shadow: 0 5px #2d7c3f;
+}
+
+.top-buttons .btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px #2d7c3f;
 }
 
 .top-buttons .btn:hover {
