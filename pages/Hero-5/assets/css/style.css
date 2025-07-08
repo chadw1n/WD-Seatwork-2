@@ -140,3 +140,14 @@ body {
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+.page-wrapper {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.page-wrapper.show {
+  opacity: 1;
+  transform: translateY(0);
+}

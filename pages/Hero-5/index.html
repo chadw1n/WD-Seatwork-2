@@ -8,7 +8,10 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <img src="./assets/img/bg ocean image.png" class="bg-img">
+
+    <img src="./assets/img/bg ocean image.png" class="bg-img">
+
+    <div class="page-wrapper">
 
   <div class="header">
     <a href="#" class="logo">
@@ -40,5 +43,11 @@
     </div>
   </div>
   <section class="downSection"></section>
+  </div>
+<script>
+    window.addEventListener('load', function() {
+      document.querySelector('.page-wrapper').classList.add('show');
+    });
+  </script>
 </body>
 </html>
