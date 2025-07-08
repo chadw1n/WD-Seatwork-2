@@ -43,6 +43,27 @@ body {
   font-family: 'Audiowide', sans-serif;
   font-size: 1rem;
   margin-left: 10px;
+  background-color: #8d0303;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  display: inline-block;
+  box-shadow: 0 4px 0 #5c0101;
+  position: relative;
+}
+
+top-buttons .btn:hover {
+  background-color: #a30b0b;
+  box-shadow: 0 0 25px rgba(255,255,255,0.4);
+  transform: translateY(-2px);
+}
+
+.top-buttons .btn:active {
+  top: 4px;
+  box-shadow: 0 0 0 #5c0101;
 }
 
 .btn {
@@ -53,12 +74,18 @@ body {
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  transition: all 0.3s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 6px 0 #5c0101; 
+  position: relative;
 }
 
 .btn:hover {
-  background-color: #a30b0b;
-  box-shadow: 0 0 25px rgba(255,255,255,0.4);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(6px);
+  box-shadow: 0 0 0 #5c0101; 
 }
 
 .main-content {
