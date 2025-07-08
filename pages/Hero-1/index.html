@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
+  <div class="splash-screen">
+    <img src="./assets/img/wild.png" alt="Forest Splash Image">
+  </div>
+
+  <div class = "page-content">
   <div class="header">
     <a href="#" class="logo">
       <img src="./assets/img/save the wild logo.png" alt="Logo">
@@ -48,7 +53,15 @@
       <img src="./assets/img/wild bg.png" alt="Lush jungle illustration" class="forest-bottom">
     </div>
   </section>
-
   <section class="downSection"></section>
+  </div>
+<script>
+  window.addEventListener('load', () => {
+    const splash = document.querySelector('.splash-screen');
+    setTimeout(() => {
+      splash.classList.add('hide');
+    }, 2000);
+  });
+</script>
 </body>
 </html>
