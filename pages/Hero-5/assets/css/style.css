@@ -40,14 +40,28 @@ body {
   letter-spacing: 1px;
   background-color: #00AEEF;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 28px;
   border: none;
   cursor: pointer;
   font-weight: bold;
   text-decoration: none;
   border-radius: 8px;
-  transition: all 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  box-shadow: 0 4px 0 #0077A3; 
+  position: relative;
 }
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 174, 239, 0.4);
+}
+
+.btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #0077A3;
+}
+
 
 .center-section {
   max-width: 600px;
