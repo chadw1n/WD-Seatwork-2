@@ -9,6 +9,10 @@
 </head>
 <body>
 
+  <div class="intro-image" id="introImage">
+  <img src="./assets/img/save ocean.png" alt="Save the Ocean Intro">
+</div>
+
     <img src="./assets/img/bg ocean image.png" class="bg-img">
 
     <div class="page-wrapper">
@@ -45,9 +49,18 @@
   <section class="downSection"></section>
   </div>
 <script>
-    window.addEventListener('load', function() {
-      document.querySelector('.page-wrapper').classList.add('show');
-    });
-  </script>
+  window.addEventListener('load', function() {
+    const intro = document.getElementById('introImage');
+    const page = document.querySelector('.page-wrapper');
+
+    setTimeout(() => {
+      intro.style.opacity = '0';
+      setTimeout(() => {
+        intro.style.display = 'none';
+        page.classList.add('show');
+      }, 1800); 
+    }, 1500); 
+  });
+</script>
 </body>
 </html>
